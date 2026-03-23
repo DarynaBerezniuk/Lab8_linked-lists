@@ -11,5 +11,3 @@ def stringify(node):
         node = node.next
     output += 'None'
     return output
-
-stringify(Node(0, Node(1, Node(4, Node(9, Node(16))))))
